@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+html,body
+{
+    scroll-behavior: smooth; /* Aplica rolagem suave para âncoras */
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    background: linear-gradient(to right, #6375be 0%, #520c4d 100%);
+
+}
+
+/* #region  NAVBAR*/
+nav
+{
+    position: fixed;
+
+    z-index: 2000;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background:  #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+nav .logo
+{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li
+{
+ margin: 0 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size:  18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: #1b1b1b;
+    background: #fff;
+}
+
+nav .menu-btn i
+{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+#click
+{
+    display: none;
+}
+
+@media (max-width: 940px)
+{
+
+    #click:checked ~ .menu-btn i:before
+    {
+        content:  "\f00d";
+    }
+
+    nav .menu-btn i
+    {
+    display: block;
+    }
+
+   nav ul
+   {
+    position: fixed;
+    top: 80px;
+    left: 100%;
+    background: #221e1e;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.8s ease;
+
+   } 
+
+   #click:checked ~ ul{
+    left: 0%;
+
+   }
+
+   nav ul li
+   {
+    margin: 40px 0;
+   }
+   nav ul li a
+   {
+   font-size: 20px;
+   display: block;
+   }
+
+
+   nav ul li a:hover,
+   nav ul li a.active
+    {
+    color: #f1ff74;
+    background: none;
+    }
+}
+
+#title
+{
+    text-align: center;
+}
+#imgs
+{
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+
+}
+/* #endregion */
+
+
+/* #region Está area torna o titulo estilizado com gradiente */
+.text
+{
+    font-size: 150px;
+    font-weight: 800;
+    text-transform: uppercase;
+    justify-content: center;
+    border: none;
+    background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+    background-size: 400%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:  animate 10s linear infinite;
+}
+@keyframes animate
+{
+    100%
+    {
+        background-position: 400%;
+    }
+}
+/* #endregion */
+
+
+/* #region Sobre*/
+.Sobre
+{
+    background: #272323;
+    background-size: cover; /* A imagem cobrirá todo o fundo do título */
+    background-position: center; /* Centraliza a imagem no fundo */
+    color: rgb(151, 135, 135); /* Define a cor do texto (altere conforme necessário) */
+    padding: 5rem; /* Adiciona espaço interno ao título */
+
+    
+}
+
+.about
+{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Tags
+{
+    font-size: 1.2rem;
+    display: inline-block;
+    position: relative;
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Tags:hover
+{
+   color: aliceblue;
+}
+
+/* #endregion */
+
+
+
+.titulo-com-imagem {
+    background-image: url("https://images.pexels.com/photos/97906/pexels-photo-97906.jpeg?cs=srgb&dl=pexels-hikaique-97906.jpg&fm=jpg");/* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* A imagem cobrirá todo o fundo do título */
+    background-position: center; /* Centraliza a imagem no fundo */
+    color: rgb(255, 255, 255); /* Define a cor do texto (altere conforme necessário) */
+    padding: 300px; /* Adiciona espaço interno ao título */
+    text-align: center; /* Centraliza o texto */
+    font-size: 2.5rem;
+    
+  }
+
+  .overlay
+  {
+    background: #00000082;
+    border-radius: 2rem;
+    width: 110%;
+    height: 110%;
+    
+  }
+
+.cidade
+{
+    margin: 10rem;
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 5rem;
+}
+
+
+
+/* #region Click Animation Text*/
+
+.rankText
+{
+     margin: 5rem;
+    font-size: 2.5rem; 
+    color: aliceblue;
+
+}
+
+.rankText:hover
+{
+    position: relative;
+   
+    color: #36d186;
+    text-decoration: underline;
+}
+
+.rankText:active
+{
+    position: relative;
+   
+    color: #36b5d1;
+    text-decoration: underline;
+}
+/* #endregion */
+
+
+
+/* #region Click Animation Image*/
+
+.imgCidade:hover
+{
+    position: relative;
+   
+    border: 6px solid #36d186;
+}
+
+.imgCidade:active
+{
+    position: relative;
+   
+    border: 6px solid white;
+}
+
+.imgCidade
+{
+    box-shadow: 1rem 1rem 3rem;
+    margin: -4rem 0rem 10rem 0rem;
+    border-radius: 2rem;
+    border: 0.2rem dashed white;
+    max-width: 100%;
+    height: auto;
+}
+/* #endregion */

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <!-- #region METADADOS (informações para o navegador) -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta charset="UTF-8"> <!-- Define qual método de caractere vai ser usado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsividade -->
+    
+    <meta name="description" content="Pagina para fins educativos"> <!-- Descrição do site -->
+    <link rel="shortcut icon" href="../IMG/icons8-cidade-16.png" type="image/x-icon"> <!--ICONE DA ABA-->    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="Author" content="Matheus Ursino dos Santos">
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, all">
+    <!-- #endregion -->
+
+    <script src="https://kit.fontawesome.com/82e317bcf7.js" crossorigin="anonymous"></script>
+    
+    <!-- Linkando o SwiperJs (para criar slider de imagens) -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
+
+  
+
+    <!-- Linkando o CSS -->
+    <link rel="stylesheet" href="../css/city1.css"> 
+
+
+    <!-- Titulo da ABA -->
+    <title>Projeto Cidade</title>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo text"><a href="../index" style="text-decoration: none;">RankCity</a></div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <ul>
+            <li><a href="../index">Home</a></li>
+            <li><a href="#IrParaConteudo">Conteúdo</a></li>
+            <li><a href="#IrParaFotos">Fotos</a></li>
+            <li><a href="#VaParaOFim">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <main>
+            <article>
+
+                <div class="title" >
+            
+                    <div class="titulo-com-imagem" id="VaParaOInicio" style=" background-image: url(https://c4.wallpaperflare.com/wallpaper/610/187/703/grand-theft-auto-grand-theft-auto-v-city-los-santos-wallpaper-preview.jpg)">
+                        <div class="overlay">
+                        <h1>Santos</h1>
+                    </div>
+                </div>
+
+                <div class="conteudo" id="IrParaConteudo">
+                    <h4><h3>Santos é uma cidade localizada no litoral do estado de São Paulo, Brasil. Conhecida por seu porto, que é o maior da América Latina, e suas belas praias, Santos também se destaca em termos de qualidade de vida e desenvolvimento urbano. </h3><br><br>
+                        <h3>Índice de Desenvolvimento Humano (IDH) </h3>
+                        
+                       O IDH de Santos é elevado, refletindo o bom desempenho da cidade em aspectos fundamentais como saúde, educação e renda. O IDH mede o desenvolvimento humano com base em três dimensões principais:<br><br>
+                        
+                           <h3>Longevidade (Saúde):</h3>  Santos possui uma expectativa de vida alta, graças à sua infraestrutura de saúde bem estabelecida, incluindo hospitais renomados e serviços de saúde pública eficazes. A cidade também se beneficia do clima agradável e das opções de lazer ao ar livre, que contribuem para o bem-estar dos moradores. <br><br>
+                        
+                            <h3>Educação:</h3> Santos tem bons indicadores educacionais, com altas taxas de alfabetização e escolaridade. A cidade conta com uma rede de escolas públicas e privadas de qualidade, além de instituições de ensino superior, como a Universidade Católica de Santos (UniSantos) e campus da Universidade Federal de São Paulo (Unifesp). <br><br>
+                        
+                            <h3>Renda:</h3>  O rendimento per capita em Santos é elevado, em grande parte devido à diversificação econômica da cidade, que inclui o porto, turismo, comércio e serviços. O porto de Santos é um dos principais geradores de empregos e de receitas para a cidade, impulsionando a economia local. <br><br>
+                        
+                        <h3>O IDH de Santos é superior a 0,840, colocando a cidade na categoria de "muito alto desenvolvimento humano". Santos combina uma economia forte, infraestrutura desenvolvida e um ambiente natural agradável, fazendo dela uma das cidades mais atraentes para se viver no Brasil. A qualidade de vida elevada e a diversidade de oportunidades fazem de Santos um local dinâmico e próspero.<br><br></h3></h4><br>
+                </div>
+
+                <div class="container swiper"   >
+                    <h2 id="IrParaFotos">Fotos da cidade</h2>
+                    <div class="slider-wrapper" >
+                        <div class="Gallery-list swiper-wrapper">
+                            <div class="Gallery-item swiper-slide" i>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQba-ZNk9_sDUiBqeu4pEJRFoKVVeOh4g3Ew&s" alt="Imagem da cidade de santos" class="image">
+                            </div>
+
+                            <div class="Gallery-item swiper-slide">
+                                <img src="https://www.mercadoeeventos.com.br/wp-content/uploads/2024/07/jardins-da-orla-santos.png" alt="Imagem da cidade de santos" class="image">
+                            </div>
+
+                                <div class="Gallery-item swiper-slide">
+                                <img src="https://www.mpd.com.br/blog/wp-content/uploads/2019/11/GettyImages-615600714-1140x694.jpg" alt="Imagem da cidade de santos" class="image">
+                            </div>
+
+                                <div class="Gallery-item swiper-slide">
+                                <img src="https://www.santos.sp.gov.br/static/files_www/field/image/bg-jose.jpg" alt="Imagem da cidade de santos" class="image">
+                            </div>
+
+                                <div class="Gallery-item swiper-slide">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEP1pTyudJeTbuzkbeICoCefavzd27evBlUA&s" alt="Imagem da cidade de santos" class="image">
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+
+            <!-- Swiper Script -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script src="../script.js"></script>
+
+            </article>
+        </main>
+        <footer>
+            <div class="Sobre"id="VaParaOFim">
+                <p class="about text">Sobre</p>
+                <div class="Tags">
+                    <p> Politica de Privacidade </p>
+                </div>
+                <div class="Tags">
+                    <p> Politica de Reembolso </p>
+                </div> <div class="Tags">
+                    <p> Termos de serviço </p>
+                </div> <div class="Tags">
+                    <p> informações para Contato </p>
+                </div> <div class="Tags">
+                    <p> Precisa de ajuda? </p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>

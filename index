@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <!-- #region METADADOS (informações para o navegador) -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta charset="UTF-8"> <!-- Define qual método de caractere vai ser usado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsividade -->
+    
+    <meta name="description" content="Pagina para fins educativos"> <!-- Descrição do site -->
+    <link rel="shortcut icon" href="IMG/icons8-cidade-16.png" type="image/x-icon"> <!--ICONE DA ABA-->
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="Author" content="Matheus Ursino dos Santos">
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, all">
+    <!-- #endregion -->
+
+    <script src="https://kit.fontawesome.com/82e317bcf7.js" crossorigin="anonymous"></script>
+    
+
+    <!-- Linkando o CSS -->
+    <link rel="stylesheet" href="css/style.css"> 
+
+    <!-- Titulo da ABA -->
+    <title>Projeto Cidade</title>
+
+</head>
+
+<body>
+    
+    <nav>
+        <div class="logo text">RankCity</div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <ul>
+            <li><a href="#VaParaOInicio">Inicio</a></li>
+            <li><a href="#IrParaCidades">Ranking</a></li>
+            <li><a href="#VaParaOFim">Sobre</a></li>
+        </ul>
+    </nav>
+
+   <main>
+        <div class="title">
+            
+            <div class="titulo-com-imagem" id="VaParaOInicio">
+                <div class="overlay">
+                <h1>AS 10 CIDADES COM OS MAIORES IDH DE SÃO PAULO</h1>
+            </div>
+        </div>
+            
+        </div>
+
+        <article class="cidades" id="IrParaCidades">
+            <div class="cidade">
+                <h3 class="rankText"> <a href="Cidades/Cidade1.html" style="color: inherit; text-decoration: none;">1ª Cidade: São Caetano do Sul</a></h3>
+                <a href="Cidades/Cidade1.html" style="color: inherit; text-decoration: none;"> <img src="https://mobilidade.estadao.com.br/wp-content/uploads/2021/02/vista-panoramica-sao-caetano-do-sul.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade2.html" style="color: inherit; text-decoration: none;"> 2ª Cidade: Águas de São Pedro </a> </h3>
+                <a href="Cidades/Cidade2.html" style="color: inherit; text-decoration: none;">  <img src="https://quantocustaviajar.com/blog/wp-content/uploads/2020/01/aguas-de-sao-pedro-thermas-1.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade3.html" style="color: inherit; text-decoration: none;"> 3ª Cidade: Santos </a> </h3>
+               <a href="Cidades/Cidade3.html" style="color: inherit; text-decoration: none;"> <img src="https://conteudo.imguol.com.br/c/entretenimento/9e/2021/01/08/cidade-de-santos-litoral-de-sao-paulo-1610114986845_v2_1920x1274.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade4.html" style="color: inherit; text-decoration: none;"> 4ª Cidade: Jundiaí </a> </h3>
+               <a href="Cidades/Cidade4.html" style="color: inherit; text-decoration: none;"> <img src="https://tribunadejundiai.com.br/wp-content/uploads/2021/03/jundiai-e-segunda-maior-em-transparencia-do-estado-de-sao-paulo.jpeg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade5.html" style="color: inherit; text-decoration: none;"> 5ª Cidade: Valinhos </a> </h3>
+               <a href="Cidades/Cidade5.html" style="color: inherit; text-decoration: none;"> <img src="https://site.proauto.org.br/storage/2021/05/9c9563c00d6cfd1cd161a618a89ce862.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade6.html" style="color: inherit; text-decoration: none;"> 6ª Cidade: Vinhedo </a> </h3>
+               <a href="Cidades/Cidade6.html" style="color: inherit; text-decoration: none;"> <img src="https://passeioskids.com/wp-content/uploads/2023/08/vinhedo-com-criancas-passeios-kids.webp" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade7.html" style="color: inherit; text-decoration: none;"> 7ª Cidade: Santo André </a> </h3>
+               <a href="Cidades/Cidade7.html" style="color: inherit; text-decoration: none;"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Pa%C3%A7o_Municipal_de_Santo_Andr%C3%A9_-_SP.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade8.html" style="color: inherit; text-decoration: none;"> 8ª Cidade: Araraquara </a> </h3>
+               <a href="Cidades/Cidade8.html" style="color: inherit; text-decoration: none;"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Araraquara_on_July_2016_02.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div  class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade9.html" style="color: inherit; text-decoration: none;"> 9ª Cidade: Santana de Parnaiba </a> </h3>
+               <a href="Cidades/Cidade9.html" style="color: inherit; text-decoration: none;"> <img src="https://parnaibaweb.com.br/images/imagens/2019/07-julho-2019/centro-historico-santana-de-parnaiba-parnaibaweb.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+
+            <div class="cidade">
+                <h3 class="rankText">  <a href="Cidades/Cidade10.html" style="color: inherit; text-decoration: none;"> 10ª Cidade: Ilha Solteira </a> </h3>
+               <a href="Cidades/Cidade10.html" style="color: inherit; text-decoration: none;"> <img src="https://ilha.news/wp-content/uploads/2023/01/ilha-solteira-previa-populacao-censo-2022-ibge-ilha-news.jpg" alt="" width="500px" height="300px" class="imgCidade"> </a>
+            </div>
+            
+        </article>
+    <footer>
+        <div class="Sobre"id="VaParaOFim">
+            <p class="about text">Sobre</p>
+            <div class="Tags">
+                <p> Politica de Privacidade </p>
+            </div>
+            <div class="Tags">
+                <p> Politica de Reembolso </p>
+            </div> <div class="Tags">
+                <p> Termos de serviço </p>
+            </div> <div class="Tags">
+                <p> informações para Contato </p>
+            </div> <div class="Tags">
+                <p> Precisa de ajuda? </p>
+            </div>
+        </div>
+    </footer>
+
+   </main>
+
+</body>
+
+
+</html>
